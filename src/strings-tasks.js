@@ -61,8 +61,7 @@ function isString(param) {
  *   concatenateStrings('', 'bb') => 'bb'
  */
 function concatenateStrings(param1, param2) {
-  const new_string = param1 + param2
-  return new_string
+  return param1.concat(param2);
 }
 
 /**
