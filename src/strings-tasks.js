@@ -75,8 +75,8 @@ function concatenateStrings(param1, param2) {
  *   getFirstChar('cat') => 'c'
  *   getFirstChar('') => ''
  */
-function getFirstChar(/* value */) {
-  throw new Error('Not implemented');
+function getFirstChar(param) {
+  return param.charAt(0);
 }
 
 /**
