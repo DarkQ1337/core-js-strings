@@ -60,8 +60,9 @@ function isString(param) {
  *   concatenateStrings('aa', '') => 'aa'.
  *   concatenateStrings('', 'bb') => 'bb'
  */
-function concatenateStrings(/* value1, value2 */) {
-  throw new Error('Not implemented');
+function concatenateStrings(param1, param2) {
+  const new_string = param1 + param2
+  return new_string
 }
 
 /**
